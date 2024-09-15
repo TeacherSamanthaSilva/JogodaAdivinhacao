@@ -6,10 +6,13 @@
     <title>Jogo da Adivinhação</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Jogo da Adivinhação</h1>
-    <div class="container">
+    <h1 class="roboto-black">Jogo da Adivinhação</h1>
+    <div class="container roboto-thin">
         <div  id="difficult-section">
             <label for="difficult">Escolha a dificuldade</label>
             <select name="difficult" id="difficult">
@@ -19,14 +22,14 @@
                 <option value="3">Difícil</option>
             </select>
         </div>
-        <div id="game-section"></div>
+        <div id="game-section roboto-light"></div>
         <p>Eu estou pensando em um número de 1 a 100. Tente adivinhar qual é:</p>
-        <div id="guess-section">
-            <input type="text" id="guess" placeholder="Digite sua resposta aqui">
-            <button id="guess-btn">Enviar</button>
+        <div id="guess-section roboto-regular">
+            <input type="text" id="guess" placeholder="Digite sua resposta aqui" class="roboto-medium">
+            <button id="guess-btn" class="roboto-bold">Enviar</button>
         </div>
         <p id="result"></p>
-        <button id="reselt-btn">Resetar Jogo</button>
+        <button id="reselt-btn" class="roboto-bold">Resetar Jogo</button>
         <p>Tentativas Restantes: <span id="tries-left"></span></p>
     </div>
 </body>

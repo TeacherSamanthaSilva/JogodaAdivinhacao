@@ -9,13 +9,93 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#difficul-section,#game-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#guess-section{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+label{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+select{
+  font-size: 1rem;
+  padding: 0.3rem;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+}
+
+p{
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+  
+}
+
+input{
+  font-size: 1rem;
+  padding: 0.2rem;
+  border: 2px solid #333;
+  margin-right: 0.3rem;
+}
+
+button{
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+button:hover{
+  background-color: #555;
+}
+
+#result{
+  font-size: 1.3rem;
+  margin-top: 1,5rem;
+  color: #b30ce6;
+}
+
+#game-section, #reset-btn{
+  display: none;
 }
 
 .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
-    margin: 0 auto;
+   
   }
   
   .roboto-light {
