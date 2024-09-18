@@ -31,4 +31,11 @@ dificultySelect.addEventListener("change", function(){
             maxtries = 10;
             break;
     }
+
+    triesLeft = maxtries;
+    triesLeftSpan.textContent(maxtries);
+
+    randomNumber = Math.floor(Math.random() * 100) +1;
+
+    dificultySection.computedStyleMap.
 })
