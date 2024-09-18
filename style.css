@@ -1,23 +1,23 @@
-body{
-    background-color: #f5f5f5;
-
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
 }
 
-.container{
-    max-width: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 1.5rem;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
-
+.container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-#difficul-section,#game-section{
+#difficulty-section,
+#game-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,142 +25,78 @@ body{
   gap: 1rem;
 }
 
-#guess-section{
+#guess-section {
   display: flex;
   justify-content: center;
 }
 
-h1{
+h1 {
   font-size: 2rem;
+  font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
   color: #333;
 }
 
-label{
+label {
   font-size: 1rem;
   font-weight: bold;
   color: #333;
 }
 
-select{
+select {
   font-size: 1rem;
-  padding: 0.3rem;
+  padding: 0.8rem;
   border: 2px solid #333;
   border-radius: 5px;
   background-color: #fff;
   color: #333;
+  margin-bottom: 1.5rem;
 }
 
-p{
-  font-size: 1rem;
+p {
+  font-size: 1.3rem;
   text-align: center;
+  margin-bottom: 1.5rem;
   color: #333;
-  
 }
 
-input{
+input[type="text"] {
   font-size: 1rem;
-  padding: 0.2rem;
-  border: 2px solid #333;
-  margin-right: 0.3rem;
+  padding: 0.6rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  margin-right: 0.6rem;
 }
 
-button{
+button {
   font-size: 1rem;
-  padding: 0.5rem;
+  padding: 10px 1.5rem;
   background-color: #333;
   color: #fff;
-  cursor: pointer;
   border: none;
   border-radius: 5px;
-  transition: 0.4s;
+  cursor: pointer;
 }
 
-button:hover{
-  background-color: #555;
+button:hover {
+  background-color: #666;
 }
 
-#result{
+#result {
   font-size: 1.3rem;
-  margin-top: 1,5rem;
+  text-align: center;
+  margin-top: 1.5rem;
   color: #b30ce6;
 }
 
-#game-section, #reset-btn{
+#game-section,
+#reset-btn {
   display: none;
 }
 
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-   
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
+#reset-btn {
+  margin: 0 auto;
+}
